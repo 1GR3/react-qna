@@ -7499,7 +7499,7 @@ h1.feedback-error, h2.feedback-error, h3.feedback-error, h4.feedback-error, h5.f
   color: #c1272d; }
 
 .logo {
-/*   background-image: url("/images/careers_v2/beta_logo.png"); */
+  background-image: url("./images/careers_v2/beta_logo.png");
   background-repeat: no-repeat;
   background-size: 95px;
   height: 18px;
@@ -7755,7 +7755,7 @@ span.icon-font, i.icon-font {
   width: 25px;
   height: 25px;
   float: left;
-/*   background: url("/images/careers_dashboard/sprite_indicators3.png?v=6") left top no-repeat; */
+  background: url("/images/careers_dashboard/sprite_indicators3.png?v=6") left top no-repeat;
   background-size: 725px 25px;
   display: block;
   /*
@@ -12079,7 +12079,7 @@ ul.search_criteria_list.search_term, ul.filter_tag_list {
     margin-bottom: -40px;
     z-index: 100; }
     .student_profile_modal .modal-content .modal-header .new_profile_image.no_image_yet {
-/*       background: url(../../images/careers_dashboard/new_default_profile_photo.png) left top; */
+      background: url(./images/careers_dashboard/new_default_profile_photo.png) left top;
       background-size: 150px 150px; }
     .student_profile_modal .modal-content .modal-header .new_profile_image .classmates_profile_image {
       height: 86%;
@@ -12195,7 +12195,7 @@ ul.search_criteria_list.search_term, ul.filter_tag_list {
     .student_profile_modal .modal-content .modal-body .profile_white_box .resume_upload_section {
       min-height: 700px;
       width: 100%;
-      background: url(/images/careers_dashboard/resume_upload_background.png) left top repeat;
+      background: url(./images/careers_dashboard/resume_upload_background.png) left top repeat;
       box-shadow: inset 0 0px 10px rgba(50, 50, 50, 0.25);
       -moz-border-radius: 3px;
       -webkit-border-radius: 3px;
@@ -12982,7 +12982,7 @@ body.qna {
       body.qna .main-content #feed .filter_by_container .bookmark_filter_link {
         text-decoration: underline; }
     body.qna .main-content #feed a.remove {
-      background: url(/images/piazza/dashboard/topbar/search-icons.png) left -12px no-repeat;
+      background: url(./images/piazza/dashboard/topbar/search-icons.png) left -12px no-repeat;
       cursor: pointer;
       height: 13px;
       width: 13px;
