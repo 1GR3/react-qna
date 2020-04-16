@@ -74,13 +74,13 @@ const TopBar = ({username, bgcolor}) => (
               </button>
             </div>
             <div className="col-auto text-right ml-auto">
-              <button className="btn btn-primary btn-xs pr-0" type="button">
+              <button className="btn btn-primary btn-xs pr-0 mt-1" type="button">
                 <div className id="user">
                   <svg width="22px" height="22px">
                     <use href="#user" width="22px" height="22px" preserveAspectRatio="xMinYMin meet" />
                   </svg>
                 </div>
-                <span className="username">Prithvi Ramakrishnan</span>
+                <span className="username pl-1">Prithvi Ramakrishnan</span>
               </button>
             </div>
             <div className="col-auto breakpoint-1075-up">
