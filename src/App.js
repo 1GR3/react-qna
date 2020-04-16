@@ -5,6 +5,8 @@ import './style.css';
 
 import TopBar from './components/topbar.component.jsx';
 
+import 'icons.svg';
+
 const posts = () => (
   <div>
     <h1>posts page / posts</h1>
@@ -18,17 +20,18 @@ const stats = () => (
 
 function App() {
   
-  
-  
-  
   return (
     <div>
+      
       <TopBar />
+      
       <Switch>
         <Route exact path='/' component={posts} />
         <Route path='/stats' component={stats} />
       </Switch>
+      
     </div>
+    
   );
 }
 
