@@ -7565,9 +7565,9 @@ span.icon, i.icon {
 
 @font-face {
   font-family: 'iconfont';
-/*   src: url("../fonts/icons/iconfont-Regular.eot"); */
+  src: url("./fonts/icons/iconfont-Regular.eot");
   /* IE9 Compat Modes */
-/*   src: url("../fonts/icons/iconfont-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/icons/iconfont-Regular.woff") format("woff"), url("../fonts/icons/iconfont-Regular.ttf") format("truetype"), url("../fonts/icons/iconfont-Regular.svg#faf67069b37497c580ed7ca6483d11d9") format("svg"); */
+  src: url("./fonts/icons/iconfont-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/icons/iconfont-Regular.woff") format("woff"), url("./fonts/icons/iconfont-Regular.ttf") format("truetype"), url("./fonts/icons/iconfont-Regular.svg#faf67069b37497c580ed7ca6483d11d9") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
