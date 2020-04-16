@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="34px" viewBox="0 0 36 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Interview-Blocks</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Interview-Blocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-42" fill="#338DC9" points="6 13.293 11.293 13.293 11.293 8 6 8"></polygon>
+        <polygon id="Fill-44" fill="#A952A5" points="6 20.154 11.293 20.154 11.293 14.861 6 14.861"></polygon>
+        <polygon id="Fill-45" fill="#FB953B" points="6.049 26.917 11.342 26.917 11.342 21.624 6.049 21.624"></polygon>
+        <path d="M13.4823,10.4159 L29.7113,10.4159" id="Stroke-46" stroke="#666666"></path>
+        <path d="M13.502,17.4586 L29.731,17.4586" id="Stroke-47" stroke="#666666"></path>
+        <path d="M13.502,24.3993 L29.731,24.3993" id="Stroke-48" stroke="#666666"></path>
+    </g>
+</svg>

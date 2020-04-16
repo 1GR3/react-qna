@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="34px" viewBox="0 0 36 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Basic-Details</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Basic-Details" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M11.9262,9.6937 L29.8752,9.6937" id="Stroke-69" stroke="#666666"></path>
+        <path d="M12.0391,17.4827 L29.9881,17.4827" id="Stroke-70" stroke="#666666"></path>
+        <path d="M12.0391,25.1588 L29.9881,25.1588" id="Stroke-71" stroke="#666666"></path>
+        <path d="M8.957,9.479 C8.957,10.296 8.295,10.958 7.478,10.958 C6.662,10.958 6,10.296 6,9.479 C6,8.662 6.662,8 7.478,8 C8.295,8 8.957,8.662 8.957,9.479" id="Fill-72" fill="#000000"></path>
+        <path d="M9.0369,17.5101 C9.0369,18.3271 8.3749,18.9891 7.5579,18.9891 C6.7419,18.9891 6.0799,18.3271 6.0799,17.5101 C6.0799,16.6931 6.7419,16.0311 7.5579,16.0311 C8.3749,16.0311 9.0369,16.6931 9.0369,17.5101" id="Fill-73" fill="#000000"></path>
+        <path d="M9.1168,25.1563 C9.1168,25.9733 8.4548,26.6353 7.6378,26.6353 C6.8218,26.6353 6.1598,25.9733 6.1598,25.1563 C6.1598,24.3393 6.8218,23.6773 7.6378,23.6773 C8.4548,23.6773 9.1168,24.3393 9.1168,25.1563" id="Fill-74" fill="#000000"></path>
+    </g>
+</svg>

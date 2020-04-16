@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>anonymous</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="anonymous">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle" fill="#A7BADA" xlink:href="#path-1"></use>
+            <ellipse id="Oval-Copy-2" fill="#666666" mask="url(#mask-2)" cx="40" cy="79.5" rx="40" ry="24.5"></ellipse>
+            <polygon id="Rectangle" fill="#666666" mask="url(#mask-2)" points="31 9 50 9 55 23 26 23"></polygon>
+            <polygon id="Rectangle-Copy" fill="#666666" mask="url(#mask-2)" transform="translate(40.500000, 26.000000) scale(1, -1) translate(-40.500000, -26.000000) " points="11 24 70 24 55 28 26 28"></polygon>
+            <g id="Group-2" mask="url(#mask-2)" fill="#666666">
+                <g transform="translate(30.000000, 29.000000)">
+                    <circle id="Oval" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-3" cx="16" cy="4" r="4"></circle>
+                </g>
+            </g>
+            <polygon id="Rectangle" fill="#666666" mask="url(#mask-2)" points="20 33 35 40 39.9072686 55.0114068 25.9072686 57.0114068"></polygon>
+            <polygon id="Rectangle-Copy-2" fill="#666666" mask="url(#mask-2)" transform="translate(49.953634, 45.005703) scale(-1, 1) translate(-49.953634, -45.005703) " points="40 33 55 40 59.9072686 55.0114068 45.9072686 57.0114068"></polygon>
+        </g>
+    </g>
+</svg>
