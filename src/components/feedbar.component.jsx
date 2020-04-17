@@ -1,4 +1,5 @@
 import React from 'react';
+import Feed from './feed.component.jsx';
 
 const FeedBar = ({username, bgcolor}) => (
 
@@ -163,7 +164,7 @@ const FeedBar = ({username, bgcolor}) => (
               <div className="row" style={{marginRight: 0}}>
                 <div className="col" style={{paddingRight: 0}}>
                   
-                  
+                  <Feed />
                   
                 </div>
               </div>
