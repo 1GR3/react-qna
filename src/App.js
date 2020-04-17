@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 import TopBar from './components/topbar.component.jsx';
+import FolderBar from './components/folderbar.component.jsx';
 
 import 'icons.svg';
 
@@ -24,7 +25,7 @@ function App() {
     <div>
       
       <TopBar />
-      
+      <FolderBar />
       <Switch>
         <Route exact path='/' component={posts} />
         <Route path='/stats' component={stats} />
