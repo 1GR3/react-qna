@@ -6,9 +6,12 @@ import './style.css';
 import TopBar from './components/topbar.component.jsx';
 import FolderBar from './components/folderbar.component.jsx';
 import FeedBar from './components/feedbar.component.jsx';
+import Posts from './components/posts.component.jsx';
 //import OldLogic from './components/jquery-logic.component.jsx';
 
 import 'icons.svg';
+
+
 
 const posts = () => (
   <div>
@@ -21,24 +24,54 @@ const stats = () => (
   </div>
 )
 
-function App() {
-  return (
-    <div>
-      
-      <TopBar />
-      <div className="container-fluid main-content">
-        <FolderBar />
-        <div className="row" id="content-holder">
-          <FeedBar />
-          <Switch>
-            <Route exact path='/' component={posts} />
-            <Route path='/stats' component={stats} />
-          </Switch>
+class App extends Component  {
+  constructor() {
+    super();
+    this.state = {
+      feed: [],
+      searchField: ''
+    }
+  }
+  
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/posts')
+      .then(response => response.json())
+      .then(users => this.setState({feed: posts}));
+  }
+  
+  handleChange = (e) => {
+    this.setState({ searchField: e.target.value })
+  }
+  
+  render() {
+    const {feed,searchField} = this.state;
+{/*
+    const filteredFeed = feed.filter(post => 
+      post.title.toLowerCase().includes(searchField.toLowerCase())
+    )
+*/}
+    return (
+      <div>
+        
+        <TopBar />
+        <div className="container-fluid main-content">
+          <FolderBar />
+          <div className="row" id="content-holder">
+            <FeedBar />
+            <Switch>
+              <Route exact path='/' component={Posts} />
+              <Route path='/stats' component={stats} />
+            </Switch>
+          </div>
+          <div className="row">
+            <div className="col" id="special_mentions_gap"></div>
+            <div className="col"></div>
+          </div>
         </div>
-      </div>
-    </div>
-    
-  );
+        </div>
+      
+    );
+  }
 }
 
 export default App;
