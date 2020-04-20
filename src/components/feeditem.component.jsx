@@ -1,21 +1,9 @@
 import React from 'react';
 
-const Feed = ({username, bgcolor}) => (
+export const FeedItem = props => (
 
-  <div id="accordion">
-    <div className="text-center py-3 ng-hide" ng-show="filteredFeedList.length == 0">
-      <strong>Events you create will appear here in your feed</strong>
-    </div>  
-    <div className="card">
-      <div className="card-header" id="headingOne">
-        <h5>
-          <button className="btn btn-link ng-binding btn-bucket" data-toggle="tooltip" data-placement="bottom" title="My Reading List">
-            My Reading List
-          </button>
-        </h5>
-      </div>
-      <div id="collapseOne0" className="collapse show">
-        <div className="card-body">      
+      
+          
           <feed-item-qna>
             
             <article>
@@ -76,10 +64,8 @@ const Feed = ({username, bgcolor}) => (
             </div>
             
           </feed-item-qna>
-        </div>
-      </div>
-    </div>
-  </div>
+          
+
         );
 
-export default Feed;
+export default FeedItem;
