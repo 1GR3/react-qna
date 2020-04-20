@@ -1,7 +1,8 @@
 import React from 'react';
-import Feed from './feed.component.jsx';
+import SearchField from './searchfield.component.jsx';
+import FeedItem from './feeditem.component.jsx';
 
-const FeedBar = ({username, bgcolor}) => (
+export const FeedBar = props => (
 
       <div id="feed" className="col">
         <div data-pats="feed_container" style={{paddingRight: 0}}>
@@ -61,9 +62,13 @@ const FeedBar = ({username, bgcolor}) => (
                 </button>
               </div>
               <div className="col px-0">
-                <span className="search">
-                  <input className="form-control ng-pristine ng-valid" type="search" placeholder="Search or add a post..." aria-label="Search" ng-model="filterInitiatives" ng-change="filterFeedList()" style={{marginTop: '2px', borderColor: '#d1d7de', height: '28px'}} />
-                </span>
+                
+                <SearchField
+                  placeholder='Search or add a post...'
+                  
+                /> 
+                {/*handleChange={this.handleChange}*/}
+                
               </div>
             </div>
           </div>
@@ -164,7 +169,38 @@ const FeedBar = ({username, bgcolor}) => (
               <div className="row" style={{marginRight: 0}}>
                 <div className="col" style={{paddingRight: 0}}>
                   
-                  <Feed />
+                  <div id="accordion">
+                    <div className="text-center py-3 ng-hide" ng-show="filteredFeedList.length == 0">
+                      <strong>Events you create will appear here in your feed</strong>
+                    </div>  
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
+                        <h5>
+                          <button className="btn btn-link ng-binding btn-bucket" data-toggle="tooltip" data-placement="bottom" title="My Reading List">
+                            My Reading List
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseOne0" className="collapse show">
+                        <div className="card-body">  
+                  
+                  
+{/*
+                          {props.feed.map(feeditem => (
+                            <FeedItem />
+                          ))}
+                          
+*/}
+                  
+                          <FeedItem />
+                          <FeedItem />
+                          <FeedItem />
+                          <FeedItem />
+                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   
                 </div>
               </div>
