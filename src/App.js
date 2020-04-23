@@ -13,23 +13,18 @@ import Edit from './components/edit.component.jsx';
 import Home from './components/home.component.jsx';
 import Intro from './components/intro.component.jsx';
 import SpecialContent from './components/sc.component.jsx';
+import Stats from './components/stats.component.jsx';
 
 //import OldLogic from './components/jquery-logic.component.jsx';
 
 import 'icons.svg';
 
+  const posts = () => (
+    <div>
+      <h1>posts page / posts</h1>
+    </div>
+  )
 
-
-const posts = () => (
-  <div>
-    <h1>posts page / posts</h1>
-  </div>
-)
-const stats = () => (
-  <div>
-    <h1>stats page</h1>
-  </div>
-)
 
 class App extends Component  {
   constructor() {
@@ -39,6 +34,8 @@ class App extends Component  {
       searchField: ''
     }
   }
+  
+
   
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/posts')
@@ -69,12 +66,12 @@ class App extends Component  {
             <FeedBar />
             <Switch>
               <Route exact path='/' component={Posts} />
-              <Route path='/stats' component={stats} />
               <Route path='/create' component={Create} />
               <Route path='/edit' component={Edit} />
               <Route path='/home' component={Home} />
               <Route path='/intro' component={Intro} />
               <Route path='/special-content' component={SpecialContent} />
+              <Route path='/stats' component={Stats} />
             </Switch>
           </div>
           <div className="row">
