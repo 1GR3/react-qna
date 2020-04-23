@@ -110,3 +110,42 @@
       </div>
     </div>
   </div>
+
+  <div className="modal fade" id="stickersModal" tabIndex={-1} role="dialog" aria-labelledby="stickersModalLabel" aria-hidden="true">
+    <div className="modal-dialog" role="document" style={{maxWidth: '420px'}}>
+      <div className="modal-content">
+        <div className="modal-header">
+          <h3>Request stickers for your students</h3>
+          <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div className="modal-body">
+          <p>We’ll send you some fun Piazza stickers to hand to students who’ve been helpful in your class (no charge)!</p><p>
+            <span className="helper-text">Enter your mailing address below and our team will send these out shortly!</span>
+            <textarea defaultValue={""} />
+          </p><div className="text-center">
+            <button className="btn btn-primary btn-xs">
+              Please send me some stickers
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div className="modal fade" id="studentStickersModal" tabIndex={-1} role="dialog" aria-labelledby="studentStickersModalLabel" aria-hidden="true">
+    <div className="modal-dialog" role="document" style={{maxWidth: '420px'}}>
+      <div className="modal-content">
+        <div className="modal-header">
+          <h3>Request Piazza stickers</h3>
+          <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div className="modal-body">
+          <p>At this time, only instructors can request Piazza stickers. Please ask your instructor to request stickers for this class.</p><p>
+          </p></div>
+      </div>
+    </div>
+  </div>
