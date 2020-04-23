@@ -11,6 +11,9 @@ import Posts from './components/posts.component.jsx';
 import Create from './components/create.component.jsx';
 import Edit from './components/edit.component.jsx';
 import Home from './components/home.component.jsx';
+import Intro from './components/intro.component.jsx';
+import SpecialContent from './components/sc.component.jsx';
+
 //import OldLogic from './components/jquery-logic.component.jsx';
 
 import 'icons.svg';
@@ -70,6 +73,8 @@ class App extends Component  {
               <Route path='/create' component={Create} />
               <Route path='/edit' component={Edit} />
               <Route path='/home' component={Home} />
+              <Route path='/intro' component={Intro} />
+              <Route path='/special-content' component={SpecialContent} />
             </Switch>
           </div>
           <div className="row">
