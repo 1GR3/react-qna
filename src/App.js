@@ -14,6 +14,7 @@ import Home from './components/home.component.jsx';
 import Intro from './components/intro.component.jsx';
 import SpecialContent from './components/sc.component.jsx';
 import Stats from './components/stats.component.jsx';
+import sMentions from './components/special-mentions.component.jsx';
 
 //import OldLogic from './components/jquery-logic.component.jsx';
 
@@ -76,7 +77,9 @@ class App extends Component  {
           </div>
           <div className="row">
             <div className="col" id="special_mentions_gap"></div>
-            <div className="col"></div>
+            <div className="col">
+              <sMentions />
+            </div>
           </div>
         </div>
         </div>
