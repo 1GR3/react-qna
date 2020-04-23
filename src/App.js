@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import tersus from 'tersus-jsx.macro';
 import './style.css';
 
 import TopBar from './components/topbar.component.jsx';
 import FolderBar from './components/folderbar.component.jsx';
 import FeedBar from './components/feedbar.component.jsx';
 import Posts from './components/posts.component.jsx';
+import Create from './components/create.component.jsx';
 //import OldLogic from './components/jquery-logic.component.jsx';
 
 import 'icons.svg';
@@ -37,6 +39,8 @@ class App extends Component  {
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then(response => response.json())
       .then(users => this.setState({feed: posts}));
+      
+      {/* PA.call_pj("network.get_my_feed", {nid:P.feed.network.id}, null, function(data){...}, function(err){...});*/}
   }
   
   handleChange = (e) => {
@@ -61,6 +65,7 @@ class App extends Component  {
             <Switch>
               <Route exact path='/' component={Posts} />
               <Route path='/stats' component={stats} />
+              <Route path='/create' component={Create} />
             </Switch>
           </div>
           <div className="row">
