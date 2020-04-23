@@ -9,6 +9,8 @@ import FolderBar from './components/folderbar.component.jsx';
 import FeedBar from './components/feedbar.component.jsx';
 import Posts from './components/posts.component.jsx';
 import Create from './components/create.component.jsx';
+import Edit from './components/edit.component.jsx';
+import Home from './components/home.component.jsx';
 //import OldLogic from './components/jquery-logic.component.jsx';
 
 import 'icons.svg';
@@ -66,6 +68,7 @@ class App extends Component  {
               <Route exact path='/' component={Posts} />
               <Route path='/stats' component={stats} />
               <Route path='/create' component={Create} />
+              <Route path='/edit' component={Edit} />
             </Switch>
           </div>
           <div className="row">
