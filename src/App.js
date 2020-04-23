@@ -69,6 +69,7 @@ class App extends Component  {
               <Route path='/stats' component={stats} />
               <Route path='/create' component={Create} />
               <Route path='/edit' component={Edit} />
+              <Route path='/home' component={Home} />
             </Switch>
           </div>
           <div className="row">
