@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-
+import { withRouter } from 'react-router-dom';
 const TopBar = ({username, bgcolor}) => (
   
   <div id="topbar" className="ng-scope">
@@ -157,4 +157,4 @@ const TopBar = ({username, bgcolor}) => (
 
 );
 
-export default TopBar;
+export default withRouter(TopBar);
