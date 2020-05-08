@@ -38,19 +38,19 @@ const TopBar = ({username, bgcolor}) => (
                   <span className="text-truncate classTruncate">Manage Class</span>
                 </button>
                 <ul className="dropdown-menu" id="section-menu">
-                  <li className="dropdown-item"><a>Q&nbsp;&amp;&nbsp;A</a></li>
-                  <li className="dropdown-item"><a>Resources</a></li>
-                  <li className="dropdown-item"><a>Statistics</a></li>
-                  <li className="dropdown-item"><a>Manage Class</a></li>
+                  <li className="dropdown-item"><a href="/">Q&nbsp;&amp;&nbsp;A</a></li>
+                  <li className="dropdown-item"><a href="/">Resources</a></li>
+                  <li className="dropdown-item"><a href="/stats">Statistics</a></li>
+                  <li className="dropdown-item"><a href="/">Manage Class</a></li>
                 </ul>
               </div>
             </div>
             <div className="col text-left breakpoint-820-up">
               <ul id="site-nav">
-                <li className="selected"><a>Q&nbsp;&amp;&nbsp;A</a></li>
-                <li className><a>Resources</a></li>
-                <li className><a>Statistics</a></li>
-                <li className><a>Manage Class</a></li>
+                <li className="selected"><a href="/">Q&nbsp;&amp;&nbsp;A</a></li>
+                <li className><a href="/">Resources</a></li>
+                <li className><a href="/stats">Statistics</a></li>
+                <li className><a href="/">Manage Class</a></li>
                 <li className="yellow" style={{display: 'none'}}><a>Sign up in 2 mins. It’s free!</a></li>
               </ul>
             </div>
