@@ -398,13 +398,20 @@ export const Create = () => (
             <div className="row pt-4 pb-5">
               <div className="col-sm-3 col-md-2 col-lg-3 col-12 d-xs-none d-sm-block text-xs-left text-sm-right  text-md-right text-lg-right text-xl-right">
               </div>
-              <div className="col">
-                <button className="btn btn-warning btn-xs mb-3">Post My Poll to ENGRD 2210!</button>
-                <button className="btn btn-outline-secondary btn-xs">Save Draft</button>
-                <button className="btn btn-outline-secondary btn-xs">Cancel</button>
-              </div>
-              <div className="col-auto text-xs-left text-sm-right  text-md-right text-lg-right text-xl-right">
-                <button className="btn btn-link btn-xs" type="button" data-toggle="modal" data-target="#previewModal">Preview Post</button>
+              <div className="col-sm-9 col-md-10 col-lg-9 col-12">
+                <div class="row">
+                  <div class="col-xl-auto col-md-12">
+                    <button id="postId" type="button" class="text-nowrap text-truncate w-100 btn btn-primary">
+                      Post My Note to 101loooooooooongnumberthatshouldnotfitintothisshortamountofcharactersthatare!
+                    </button>
+                  </div>
+                  <div class="col-xl-auto col-md-6">
+                    <button id="postId" type="button" class="btn btn-light btn-block">Save Draft</button>
+                  </div>
+                  <div class="col-xl-auto col-md-6">
+                    <button id="postId" type="button" class="btn btn-light btn-block">Cancel</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
